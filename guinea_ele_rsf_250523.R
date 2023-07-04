@@ -1,4 +1,3 @@
-
 # Guinea elephant RSF
 # May 2023
 
@@ -129,7 +128,7 @@ coef_plot <- ggplot(rsf.coef, aes(estimate, term, xmin=conf.low, xmax=conf.high,
 
 ################################################################################
 
-data.rsf2 <- data.rsf
+data.rsf2 <- data.rsf # make a copy
 
 # scale() changes the class of your columns
 # Simply them to numeric vectors
