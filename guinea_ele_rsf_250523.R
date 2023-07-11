@@ -158,10 +158,8 @@ visreg(fit=rsf.fit3, xvar="elevation",
 visreg(fit=rsf.fit3, xvar="river", scale="response", 
        xlab="Distance to river (standardised)", ylab="Prob of use")
 
-
 visreg(fit=rsf.fit3, xvar="settlement", scale="response", 
        xlab="Distance to settlement (standardised)", ylab="Prob of use")
-
 
 visreg(fit=rsf.fit3, xvar="beehive_dist", scale="response", 
        xlab="Distance to beehive (standardised)", ylab="Prob of use")
@@ -178,7 +176,6 @@ visreg(fit=rsf.fit3, xvar="settlement", by="beehive_dist", overlay=T, scale="res
 
 # 2D filled contour plots
 visreg2d(rsf.fit3, "settlement", "beehive_dist")
-
 
 ################################################################################
 
